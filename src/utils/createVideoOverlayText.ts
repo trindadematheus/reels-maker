@@ -6,8 +6,8 @@ export default function createVideoOverlayText(videoInfo: VideoInfo) {
     .map((line: any) => line.trim())
     .join("\n");
 
-  const artist = `drawtext=text='${videoInfo.artist}':x=80:y=h-394:fontsize=38:fontcolor=gray[artist]`;
-  const title = `[artist]drawtext=text='${lineBreakedText}':x=80:y=h-340:fontsize=48:fontcolor=white`;
+  const artist = `drawtext=text='${videoInfo.artist}':x=60:y=h-204:fontsize=38:fontcolor=gray[artist]`;
+  const title = `[artist]drawtext=text='${lineBreakedText}':x=60:y=h-150:fontsize=48:fontcolor=white`;
 
   return `${artist};${title}`;
 }
