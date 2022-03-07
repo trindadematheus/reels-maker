@@ -13,6 +13,18 @@
 - [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - A fluent API to FFMPEG
 - [ytdl-core](https://github.com/fent/node-ytdl-core) - YouTube video downloader in javascript
 
+### Running
+Clone the project, rename file `.env.example` to `.env` and fill in the variables with your instagram username and password
+```
+INSTAGRAM_USERNAME=
+INSTAGRAM_PASSWORD=
+```
+After this config, run the project with following command:
+
+```
+yarn dev
+```
+
 <br/>
 
 ---
